@@ -199,6 +199,6 @@ def get_data():
     df = pd.merge(df, df_pib, on=['Timestamp', 'Estado'])
 
     # save data as csv
-    df.to_csv('./data.csv')
+    df.to_csv('./data/processed_data.csv')
 
     return df
