@@ -33,3 +33,7 @@ tornado==6.3.2
 traitlets==5.9.0
 tzdata==2023.3
 wcwidth==0.2.6
+seaborn
+geopandas
+plotly
+matplotlib
