@@ -26,7 +26,7 @@ def consumo_energetico_residencial():
         }
         df_r = pd.concat([df_r, pd.DataFrame.from_dict(data)])
         df_r = df_r[1:]
-        return df_r
+    return df_r
 
 
 def consumo_energetico_industrial():
